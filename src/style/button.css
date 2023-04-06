@@ -1,0 +1,25 @@
+.buttonCK {
+  /* button */
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 24px;
+gap: 12px;
+
+width: 247px;
+height: 48px;
+
+/* Primary/1 */
+
+background: #3B71FE;
+border-radius: 90px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}

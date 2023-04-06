@@ -1,0 +1,370 @@
+.mainBG{
+    /* Hero */
+width: 100%;
+height: 100%;
+background: #FCFCFD;
+
+}
+
+.hero1{
+    /* img */
+
+display: flex;
+
+position: absolute;
+
+left: 0vh;
+right: 0vh;
+top: 90px;
+bottom: 70px;
+
+
+/* Neutrals/7 */
+
+background: #F4F5F6;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 24px;
+}
+
+
+
+.text1 {
+  /* Cari Kos dekat Tel-U */
+
+width: 447px;
+height: 288px;
+
+/* Hero */
+
+
+font-style: normal;
+font-weight: 700;
+font-size: 96px;
+line-height: 96px;
+/* or 100% */
+
+letter-spacing: -0.02em;
+
+/* Neutrals/2 */
+
+color: #23262F;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.text2 {
+    /* Bersama tekos, dapatkan kosan impianmu! */
+width: 447px;
+height: 64px;
+
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+/* or 133% */
+
+letter-spacing: -0.02em;
+
+/* Neutrals/2 */
+
+color: #23262F;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.heroIntro {
+    /* Auto layout */
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+position: absolute;
+width: 447px;
+height: 230px;
+left: 80px;
+top: calc(50% - 440px/2 + 0.5px);
+}
+
+.hero2 {
+    /* Search lokasi */
+
+box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 40px;
+gap: 31px;
+
+position: absolute;
+height: 255px;
+width: 1120px;
+left: 100px;
+right: 0px;
+bottom: -80px;
+
+/* effect/neutral 8 (glass) */
+
+background: linear-gradient(83.59deg, #FCFCFD 36.52%, rgba(252, 252, 253, 0.83) 98.8%);
+/* Neutrals/8 */
+
+border: 1px solid #FCFCFD;
+/* glass/01 */
+
+box-shadow: 0px 40px 64px -32px rgba(15, 15, 15, 0.1);
+backdrop-filter: blur(16px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 24px;
+}
+
+hr{
+position: absolute;
+height: 1px;
+left: 40px;
+right: 40px;
+top: 80px;
+
+/* Neutrals/6 */
+
+background: #E6E8EC;
+border-radius: 1px;
+}
+.hero2nav {
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 48px;
+
+position: absolute;
+width: 10px;
+height: 10px;
+left: 0px;
+top: 10px;
+}
+
+Nav.Link {
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height, or 114% */
+
+text-align: center;
+
+/* Neutrals/4 */
+
+color: #777E91;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+
+.searchIcon {
+
+    width: 64px;
+    height: 64px;
+    
+   
+}
+
+.layanan {
+display: flex;
+position: absolute;
+left: 0vh;
+right: 0vh;
+top: 90px;
+bottom: -1200px;
+border: #23262F;
+
+/* Neutrals/7 */
+
+}
+
+.header {
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 543px;
+height: 100px;
+
+}
+
+h1 {
+width: 549px;
+height: 56px;
+
+/* Headline 2 */
+
+/* font-family: 'DM Sans'; */
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 56px;
+/* identical to box height, or 117% */
+
+text-align: center;
+letter-spacing: -0.02em;
+
+/* Neutrals/2 */
+
+color: #23262F;
+}
+
+h3 {
+width: 543px;
+height: 32px;
+
+/* Body 1 */
+
+/* font-family: 'Poppins'; */
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+
+text-align: center;
+letter-spacing: -0.01em;
+
+/* Neutrals/4 */
+
+color: #777E91;
+
+}
+
+.layananBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    gap: 31px;
+   
+    position: absolute;
+    height: 255px;
+    width: 100%;
+    left: 0px;
+    right: 0px;
+    bottom: 655px;
+    
+}
+
+.cardGroup {
+
+    width: 1120px;
+height: 192px;
+}
+
+.kenapa {
+    display: flex;
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    top: 1px;
+    bottom: -2300px;
+    border: #23262F;
+    
+    /* Neutrals/7 */
+    
+    }
+
+.kenapaBody {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 128px;
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    width: 1120px;
+    height: 700px;
+    left: 0vh;
+    right: 0vh;
+    bottom: 750px;
+
+}
+
+.kenapaValues {
+/* values */
+
+
+/* Auto layout */
+position: static;
+
+padding: 0px;
+gap: 40px;
+background: #23262F;
+width: 560px;
+height: 648px;
+left: -50vh;
+right: 0vh;
+
+}
+
+.caraMemesan {
+
+    display: flex;
+    position: absolute;
+    left: 0vh;
+    right: 0vh;
+    top: 500px;
+    bottom: -3900px;
+    border: #23262F;
+}
+
+.images2{
+  
+    max-width: 100%;
+    height: auto;
+    
+   
+    margin: 5px;
+    padding: 5px;
+    
+}
+.imageWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    gap: 320px;
+   
+    position: absolute;
+ 
+    left: 0px;
+    right: 0px;
+margin-top: 5%;
+}

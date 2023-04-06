@@ -1,0 +1,51 @@
+.main {
+width: 1440px;
+height: 70px;
+
+/* Neutrals/8 */
+align-items: center;
+justify-content: center;
+background: #FCFCFD;
+position:fixed;
+top:0px;
+left:0px;
+right:0px;
+width:100%;
+z-index:99;
+
+
+}
+
+
+/* .nav1 {
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 40px;
+
+position: absolute;
+width: 320px;
+height: 48px;
+left: 160px;
+top: calc(50% - 48px/2);
+
+}
+
+.nav2 {
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 26px;
+
+position: absolute;
+width: 189px;
+height: 40px;
+right: 160px;
+top: calc(50% - 40px/2);
+
+} */
